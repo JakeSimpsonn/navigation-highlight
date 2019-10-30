@@ -1,0 +1,39 @@
+html {
+  background-color: #ffe500;
+  font-family: Georgia;
+  margin: 0;
+  padding: 0,inherit;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  color: #b20953;
+  font-family: "Sigmar One", serif;
+  text-align: center;
+}
+
+body {
+  padding: .3em;
+  padding: .2em .5em .3em;
+}
+
+.nav {
+
+}
+
+.nav li {
+
+}
+
+.nav:hover {
+  background-color: #cc1465;
+}
+
+.current {
+  background-color: #cc1465;
+}
