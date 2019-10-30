@@ -57,3 +57,13 @@ body {
 .current {
   background-color: #cc1465;
 }
+
+.header li {
+  text-decoration: none;
+  padding: .5em .75em;
+  background-color: #fff;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 0;
+  padding: .75em;
+}
