@@ -5,6 +5,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #2f2d13;
 }
 
 *, *::before, *::after {
@@ -16,6 +17,7 @@ h1 {
   color: #b20953;
   text-align: center;
   font-size: 3rem;
+  background-color:#ffe500;
 }
 
 h2 {
@@ -33,7 +35,7 @@ img {
 body {
   margin: .3em;
   padding: .2em .5em .3em;
-  background-color: inherit;
+  background-color: #fff;
 }
 
 .nav {
@@ -44,7 +46,7 @@ body {
 
 }
 
-.nav:hover {
+.nav :hover {
   background-color: #cc1465;
 }
 
