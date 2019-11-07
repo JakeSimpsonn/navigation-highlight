@@ -4,7 +4,7 @@ html {
   line-height: 1.5;
 }
 
-body{
+body {
   padding: 0;
   margin: 0;
 }
@@ -19,11 +19,11 @@ h1 {
   font-size: 3rem;
   margin: auto;
   max-width: 100%;
-  height:auto;
+  height: auto;
   background-color: #ffe500;
 }
 
-.nav{
+.nav {
   background-color: #ffe500;
 }
 
@@ -33,7 +33,7 @@ h2 {
   padding: 0 .5em;
 }
 
-p{
+p {
   font-family: Georgia, serif;
   color: #2f2d13;
   padding: .2em .5em .3em;
@@ -53,7 +53,7 @@ footer {
   padding: .75em;
 }
 
-nav{
+nav {
   text-align: center;
   display: block;
   list-style-type: none;
@@ -70,7 +70,7 @@ nav ul {
   padding-left: 0;
 }
 
-.main{
+.main {
   background-color: #fff;
 }
 
