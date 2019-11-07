@@ -1,11 +1,12 @@
 html {
-  background-color: #ffe500;
-  font-family: Georgia;
-  line-height: 1.5;
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
-  color: #2f2d13;
+  font-family: "Sigmar One", cursive;
+  line-height: 1.5;
+}
+
+body{
+  padding: 0;
+  margin: 0;
 }
 
 *, *::before, *::after {
@@ -13,66 +14,104 @@ html {
 }
 
 h1 {
-  font-family: "Sigmar One", serif;
-  color: #b20953;
   text-align: center;
+  color: #b20953;
   font-size: 3rem;
-  background-color:#ffe500;
+  margin: auto;
+  max-width: 100%;
+  height:auto;
+  background-color: #ffe500;
+}
+
+.nav{
+  background-color: #ffe500;
 }
 
 h2 {
-  font-family: "Sigmar One", serif;
   color: #b20953;
-  text-align: left;
   font-size: 1.875rem;
+  padding: 0 .5em;
 }
 
-img {
-  width: 100%;
-  Corner radius: 4px;
-}
-
-body {
-  margin: .3em;
+p{
+  font-family: Georgia, serif;
+  color: #2f2d13;
   padding: .2em .5em .3em;
-  background-color: #fff;
 }
 
-.nav {
-
+small {
+  color: #000;
+  font-weight: lighter;
+  font-family: serif;
+  display: block;
 }
 
-.nav li {
-
-}
-
-.nav :hover {
-  background-color: #cc1465;
-}
-
-.nav a {
-  padding: .2em .5em .3em;
-  margin: .3em;
-}
-.current {
-  background-color: #b20953;
-}
-
-.header li {
-  text-decoration: none;
-  padding: .5em .75em;
+footer {
   background-color: #ffe500;
-  border-radius: 10px;
+  text-align: center;
+  display: block;
+  padding: .75em;
+}
+
+nav{
+  text-align: center;
+  display: block;
+  list-style-type: none;
+  font-family: serif;
+  border: 0;
+  padding: .3em;
+  font-size: 1.125rem;
+  background-color: #ffe500;
+}
+
+nav ul {
   display: inline-block;
   margin: 0;
-  padding: .75em;
+  padding-left: 0;
+}
+
+.main{
+  background-color: #fff;
 }
 
 a {
   text-decoration: none;
   color: #fff;
   padding: .2em .5em .3em;
-  background-color: #b2a212;
-  border-radius: 10px;
+  border-radius: 4px;
   display: inline-block;
+}
+
+a:hover {
+  background-color: #cc1465;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 4px;
+}
+
+nav li {
+  display: inline-block;
+  font-family: Georgia, serif;
+  color: #fff;
+}
+
+nav a {
+  display: inline-block;
+  padding: .2em .5em .3em;
+  border-radius: 4px;
+  background-color: #b2a212;
+  color: #fff;
+}
+
+.current {
+  background-color: #b20953;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+main {
+  padding: 0 .75em;
 }
