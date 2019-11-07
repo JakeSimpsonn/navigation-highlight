@@ -1,8 +1,12 @@
+/* ------------------General----------------- */
+
 html {
   box-sizing: border-box;
   font-family: "Sigmar One", cursive;
   line-height: 1.5;
 }
+
+/* ------------------Body------------------- */
 
 body {
   padding: 0;
