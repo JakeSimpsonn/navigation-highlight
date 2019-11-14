@@ -1,12 +1,8 @@
-/* ------------------General----------------- */
-
 html {
   box-sizing: border-box;
   font-family: "Sigmar One", cursive;
   line-height: 1.5;
 }
-
-/* ------------------Body------------------- */
 
 body {
   padding: 0;
@@ -63,9 +59,9 @@ nav {
   list-style-type: none;
   font-family: serif;
   border: 0;
-  padding: .3em;
-  font-size: 1.125rem;
+  padding-bottom: .3em;
   background-color: #ffe500;
+  font-size: 1.125rem;
 }
 
 nav ul {
@@ -74,16 +70,16 @@ nav ul {
   padding-left: 0;
 }
 
-.main {
-  background-color: #fff;
-}
-
 a {
   text-decoration: none;
   color: #fff;
   padding: .2em .5em .3em;
   border-radius: 4px;
   display: inline-block;
+}
+
+.main {
+  background-color: #fff;
 }
 
 a:hover {
